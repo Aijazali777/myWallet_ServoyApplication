@@ -1,0 +1,17 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/example_data/customers",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"89A809F5-713B-4C4A-9C33-B5BCBDE6A05A"
+}
+],
+name:"my_balance",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"4443F664-AC13-4E68-AC6D-DEEE8192A000"
