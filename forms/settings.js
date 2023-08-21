@@ -62,6 +62,13 @@ function onShow(firstShow, event)
 	{
 		statusFlag = true;
 	}
+	else if(status == 'new')
+	{
+		balance = balance+500;
+		reward = reward+500;
+		forms.dashboard.elements.lbl_bonus.visible = false;
+		statusFlag = true;
+	}
 	else
 	{
 		statusFlag = false;
