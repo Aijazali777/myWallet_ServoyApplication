@@ -4,28 +4,31 @@ dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
+cssPosition:"120,-1,1,calc( 40% - 150px),300,100",
+json:{
+containedForm:{
+svy_form:"D1DDB7F1-34F4-4E0B-9F44-F30777000A94"
+},
+cssPosition:{
+bottom:"1",
+height:"100",
+left:"calc( 40% - 150px)",
+right:"-1",
+top:"120",
+width:"300"
+},
+pageLayout:"listview"
+},
+name:"payees_listComponent",
+typeName:"servoycore-listformcomponent",
+typeid:47,
+uuid:"30774069-CC1E-47B7-B63D-E7EE6759D1EB"
+},
+{
 height:480,
 partType:5,
 typeid:19,
 uuid:"78616DA2-403B-4E3E-8020-92D489A37D24"
-},
-{
-cssPosition:"130,-1,-1,calc( 40% - 150px),300,100",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"100",
-left:"calc( 40% - 150px)",
-right:"-1",
-top:"130",
-width:"300"
-},
-dataProviderID:"payees"
-},
-name:"datalabel_1",
-typeName:"bootstrapcomponents-datalabel",
-typeid:47,
-uuid:"DB81A5E4-A29E-4B8F-AFCA-CFEF10234B8E"
 },
 {
 cssPosition:"50,-1,-1,calc( 40% - 85px),170,30",

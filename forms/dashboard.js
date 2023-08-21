@@ -13,6 +13,7 @@ function availBonus(event, dataTarget)
 	if(status == 'new')
 	{
 		balance += 500;
+		reward += 500; 
 		application.output(" 500 PKR added to your account");
 		status = 'Active';
 		elements.lbl_bonus.visible = false;

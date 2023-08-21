@@ -1,7 +1,7 @@
 customProperties:"formComponent:false,\
 useCssPosition:true",
 dataSource:"db:/example_data/mywallet",
-encapsulation:96,
+encapsulation:64,
 items:[
 {
 cssPosition:"580,-1,-1,calc( 55% - 85px),170,30",

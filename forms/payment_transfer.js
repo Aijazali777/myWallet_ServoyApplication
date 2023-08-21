@@ -22,11 +22,15 @@ var amount = null;
  */
 function done(event)
 {
-	transfer()
+	if(transfer())
+	{
+		plugins.dialogs.showInfoDialog('',"Funds transfered successfully!");
+	}
 }
 
 /**
  * @properties={typeid:24,uuid:"7F45BC2C-9F14-41F9-A8D8-B64EF07C9DC3"}
+ * @return {Boolean}
  */
 function transfer()
 {
@@ -52,6 +56,7 @@ function transfer()
 			var fsReceiverCount = fsReceiver.getSize();
 			for(var i=1; i<=fsReceiverCount; i++)
 			{
+				fsReceiver.setSelectedIndex(i);
 				if(accountName == fsReceiver.name && accountNumber == fsReceiver.cnic)
 				{
 					if(amount <= balance)
@@ -59,12 +64,15 @@ function transfer()
 						fsReceiver.balance = fsReceiver.balance+amount;
 						fsReceiver.received = fsReceiver.received+amount;
 						fsReceiver.transcation_text = "you have received "+amount+"PKR from "+name+"'s account "+cnic+" at "+application.getTimeStamp();
-						balance = balance-amount;
 						sent = balance-amount;
+						balance = balance-amount;
 						transcation_text = "you have transfered "+amount+"PKR to "+fsReceiver.name+"'s account "+fsReceiver.cnic+" successfully at "+application.getTimeStamp();
 						payees = "Account Name: "+fsReceiver.name+"\
 						Account Number: "+fsReceiver.cnic;
-						return;						
+						accountName = '';
+						accountNumber = null;
+						amount = null;
+						return true;						
 					}
 					else
 					{
@@ -75,7 +83,10 @@ function transfer()
 			plugins.dialogs.showErrorDialog('Failed','Please enter a correct Account name and Account number','OK');
 		}
 	}
-	return
+	accountName = '';
+	accountNumber = null;
+	amount = null;
+	return false;
 }
 
 /**
