@@ -4,60 +4,30 @@ dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
-cssPosition:"199,-1,-1,31,200,32",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"32",
-left:"31",
-right:"-1",
-top:"199",
-width:"200"
-},
-showPercentageOnHover:true
-},
-name:"rating_11",
-typeName:"bootstrapextracomponents-rating",
-typeid:47,
-uuid:"0E6B259F-8AD0-407A-9DAC-D764CBC985D3"
-},
-{
-cssPosition:"370,-1,-1,91,301,37",
+cssPosition:"95,-1,-1,calc( 60% - 130px),301,37",
 json:{
 componentSize:"small",
 cssPosition:{
 bottom:"-1",
 height:"37",
-left:"91",
+left:"calc( 60% - 130px)",
 right:"-1",
-top:"370",
+top:"95",
 width:"301"
 },
+dataProviderID:"statusFlag",
 label:"Status",
-offColor:"warning",
-onColor:"success"
+offColor:"danger",
+offText:"Blocked",
+onActionMethodID:null,
+onColor:"success",
+onDataChangeMethodID:"9702E06D-1C79-4811-86B8-7B51448133FE",
+onText:"Active"
 },
 name:"switch_1",
 typeName:"bootstrapextracomponents-switch",
 typeid:47,
 uuid:"173F4D88-6EF9-471F-A7DC-DC20BDECF4B4"
-},
-{
-cssPosition:"410,-1,-1,29,400,70",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"70",
-left:"29",
-right:"-1",
-top:"410",
-width:"400"
-}
-},
-name:"slider_2",
-typeName:"servoyextra-slider",
-typeid:47,
-uuid:"252F96E9-3A48-46E3-AE62-4BE787638EBA"
 },
 {
 cssPosition:"50,-1,-1,calc( 40% - 100px),200,30",
@@ -80,31 +50,14 @@ typeid:47,
 uuid:"41F2A85A-1F68-4AAE-8BF7-AAF2DA7C5F5D"
 },
 {
-cssPosition:"285,-1,-1,346,300,25",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"25",
-left:"346",
-right:"-1",
-top:"285",
-width:"300"
-}
-},
-name:"progressbar_7",
-typeName:"bootstrapextracomponents-progressbar",
-typeid:47,
-uuid:"43FE0A69-7A53-46E3-B30D-B40841FC9A89"
-},
-{
-cssPosition:"200,-1,-1,calc( 40% - 85px),170,30",
+cssPosition:"220,-1,-1,calc( 40% - 85px),170,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
 left:"calc( 40% - 85px)",
 right:"-1",
-top:"200",
+top:"220",
 width:"170"
 },
 text:"Change Password"
@@ -121,14 +74,14 @@ typeid:19,
 uuid:"5555C4D9-88C5-47CA-B565-439D84F8ABFA"
 },
 {
-cssPosition:"250,-1,-1,calc( 40% - 85px),170,30",
+cssPosition:"270,-1,-1,calc( 40% - 85px),170,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
 left:"calc( 40% - 85px)",
 right:"-1",
-top:"250",
+top:"270",
 width:"170"
 },
 text:"Enable Admin Mode"
@@ -139,50 +92,14 @@ typeid:47,
 uuid:"85F8BE24-CDB6-44C1-9264-6C98481FDEF5"
 },
 {
-cssPosition:"137,-1,-1,7,143,51",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"51",
-left:"7",
-right:"-1",
-top:"137",
-width:"143"
-},
-dataProviderID:"age"
-},
-name:"spinner_5",
-typeName:"servoyextra-spinner",
-typeid:47,
-uuid:"9653CFD6-EFFA-414E-911C-BBAD7DF6277F"
-},
-{
-cssPosition:"329,-1,-1,41,233,32",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"32",
-left:"41",
-right:"-1",
-top:"329",
-width:"233"
-},
-dataProviderID:"country"
-},
-name:"select2tokenizer_4",
-typeName:"servoyextra-select2tokenizer",
-typeid:47,
-uuid:"AD5A324D-85EC-4A4A-9790-21915D5BF453"
-},
-{
-cssPosition:"130,-1,-1,calc( 40% - 85px),170,30",
+cssPosition:"160,-1,-1,calc( 40% - 85px),170,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
 left:"calc( 40% - 85px)",
 right:"-1",
-top:"130",
+top:"160",
 width:"170"
 },
 styleClass:"default-align label_header_1",
@@ -215,14 +132,14 @@ typeid:47,
 uuid:"E26EFC1F-CCCE-4216-BEB4-7900ED11C75C"
 },
 {
-cssPosition:"300,-1,-1,calc( 40% - 85px),170,30",
+cssPosition:"320,-1,-1,calc( 40% - 85px),170,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
 left:"calc( 40% - 85px)",
 right:"-1",
-top:"300",
+top:"320",
 width:"170"
 },
 text:"My Prefernces"
@@ -231,47 +148,12 @@ name:"label_3",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"E7AC4505-A77F-4E12-B346-41B816ED2CE4"
-},
-{
-cssPosition:"46,-1,-1,38,101,40",
-json:{
-badgeText:"0",
-cssPosition:{
-bottom:"-1",
-height:"40",
-left:"38",
-right:"-1",
-top:"46",
-width:"101"
-},
-text:"Badge"
-},
-name:"badge_12",
-typeName:"bootstrapextracomponents-badge",
-typeid:47,
-uuid:"F134B952-77D1-4FA2-8C63-911A337539F9"
-},
-{
-cssPosition:"227,-1,-1,14,140,54",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"54",
-left:"14",
-right:"-1",
-top:"227",
-width:"140"
-},
-dataProviderID:"country"
-},
-name:"typeahead_6",
-typeName:"bootstrapcomponents-typeahead",
-typeid:47,
-uuid:"F39524F2-4DDD-4F4F-9C2B-258161B92CED"
 }
 ],
 name:"settings",
 navigatorID:"-1",
+onLoadMethodID:"7A0EF955-6589-4A8C-A44B-B4B7B4999FED",
+onShowMethodID:"F02D0192-30BD-4C11-B6C8-A92015022D95",
 showInMenu:true,
 styleClass:"form-background",
 typeid:3,

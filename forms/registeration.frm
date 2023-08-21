@@ -148,9 +148,9 @@ right:"-1",
 top:"280",
 width:"170"
 },
-text:"Opening Date"
+text:"Address"
 },
-name:"label_7",
+name:"lbl_address",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"71EFF1B7-2C6B-49A5-AA35-7BDB88D18919"
@@ -220,9 +220,9 @@ right:"-1",
 top:"310",
 width:"170"
 },
-dataProviderID:"uOpeningDate"
+dataProviderID:"uAddress"
 },
-name:"textbox_11ccc",
+name:"fld_address",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"B8343EFB-C921-48BF-9FDF-F76504036BA2"

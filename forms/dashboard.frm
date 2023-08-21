@@ -248,6 +248,7 @@ uuid:"FC01BCCE-8490-45F6-A229-71E508C63873"
 ],
 name:"dashboard",
 navigatorID:"-1",
+onLoadMethodID:"F1B0660F-7D53-46D3-9969-9C5E93EDFB9A",
 onShowMethodID:"320475AC-C98E-413A-A16C-688BFFD3D7B8",
 showInMenu:true,
 styleClass:"form-background",
