@@ -1,7 +1,7 @@
-
+// An Array of Objects
 /**
-* @properties={typeid:35,uuid:"3DA75641-9394-413E-9515-B4787BA2841A",variableType:-4}
-*/
+ * @properties={typeid:35,uuid:"46E0A4C8-3EC7-4973-9452-205072FE9DE5",variableType:-4}
+ */
 var menu = 
 [
 	{
@@ -35,6 +35,7 @@ var menu =
 		iconName:'fa-solid fa-money-bill-transfer'
 	},
 	{
+		id:7,
 		text:'Settings',
 		formName:'settings',
 		iconName:'fa-solid fa-gear'
@@ -45,6 +46,7 @@ var menu =
 		iconName:'fa-solid fa-user-gear'
 	},
 	{
+		id:9,
 		text:'Complaint',
 		formName:'complaint',
 		iconName:'fa-solid fa-pen-to-square'
@@ -155,6 +157,7 @@ function onLoad(event)
 	subMenuItem = {};
 	subMenuItem.text = 'Change password';
 	subMenuItem.itemId = 'Change Password';
+	//subMenuItem.styleClass = 'label_header2';
 	menuItem.subMenuItems.push(subMenuItem);
 	
 	//Divider

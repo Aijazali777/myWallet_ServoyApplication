@@ -145,5 +145,6 @@ uuid:"CBDB9B8D-CEDE-4814-96AF-039CE35876A5"
 name:"admin",
 navigatorID:"-1",
 showInMenu:true,
+styleClass:"form-background",
 typeid:3,
 uuid:"DA7DBF5C-10F0-4586-BDFD-9AFF0041794F"

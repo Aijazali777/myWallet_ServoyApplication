@@ -14,7 +14,7 @@ function availBonus(event, dataTarget)
 	{
 		balance += 500;
 		application.output(" 500 PKR added to your account");
-		status = 'active';
+		status = 'Active';
 		elements.lbl_bonus.visible = false;
 		application.updateUI();
 	}
@@ -34,4 +34,16 @@ function onShow(firstShow, event)
 	{
 		elements.lbl_bonus.visible = true;
 	}
+}
+
+/**
+ * Callback method when form is (re)loaded.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"F1B0660F-7D53-46D3-9969-9C5E93EDFB9A"}
+ */
+function onLoad(event)
+{
+	foundset.loadRecords(globals.id);
 }

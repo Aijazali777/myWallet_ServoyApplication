@@ -1,6 +1,6 @@
 customProperties:"formComponent:false,\
 useCssPosition:true",
-dataSource:"db:/example_data/customers",
+dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
@@ -14,9 +14,10 @@ right:"-1",
 top:"330",
 width:"170"
 },
+dataProviderID:"amount",
 placeholderText:"Enter Amount"
 },
-name:"textbox_2cc",
+name:"fld_amount",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"0066E732-38D5-4C7C-BF70-4486261CE468"
@@ -34,7 +35,7 @@ width:"170"
 },
 text:"Amount"
 },
-name:"label_1cc",
+name:"lbl_amount",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"02D19A36-7B61-4992-A9BE-EAE50BF0DFBC"
@@ -76,9 +77,12 @@ right:"-1",
 top:"400",
 width:"80"
 },
+onActionMethodID:"5D1B7603-16D9-4718-93BD-B9065DAF7271",
+styleClass:"btn btn-primary",
 text:"Done"
 },
-name:"button_7",
+name:"btn_done",
+styleClass:"btn btn-primary",
 typeName:"bootstrapcomponents-button",
 typeid:47,
 uuid:"65399E3E-A7CF-4FE8-9C3E-9F37ACB9B54D"
@@ -97,7 +101,7 @@ width:"200"
 styleClass:"default-align font-weight-bold",
 text:"Payment Transfer"
 },
-name:"label_8",
+name:"lbl_paymentTransfer",
 styleClass:"default-align font-weight-bold",
 typeName:"bootstrapcomponents-label",
 typeid:47,
@@ -114,9 +118,10 @@ right:"-1",
 top:"230",
 width:"170"
 },
+dataProviderID:"accountNumber",
 placeholderText:"Enter Account Number"
 },
-name:"textbox_2c",
+name:"fld_accountNumber",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"98EFDB21-DFA1-4FCE-877D-549D8D17383F"
@@ -132,9 +137,10 @@ right:"-1",
 top:"130",
 width:"170"
 },
+dataProviderID:"accountName",
 placeholderText:"Enter Account Name"
 },
-name:"textbox_2",
+name:"fld_accountName",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"B0C8AC57-0D65-4F69-B326-83F0798C959B"
@@ -152,7 +158,7 @@ width:"170"
 },
 text:"Account Number"
 },
-name:"label_1c",
+name:"lbl_accountNmuber",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"D6720F09-B1C6-4D34-9379-2AE9BF74F02D"
@@ -170,14 +176,37 @@ width:"170"
 },
 text:"Account Name"
 },
-name:"label_1",
+name:"lbl_accountName",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"E82E8787-C86E-4B7E-B2DB-04223C08A740"
+},
+{
+cssPosition:"60,-1,-1,calc( 40% - 140px),280,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc( 40% - 140px)",
+right:"-1",
+top:"60",
+width:"280"
+},
+text:"Please active your account to transfer funds",
+visible:false
+},
+name:"lbl_accountActiveNote",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"EA95E7A5-2FE7-4CDD-ACC9-75315EB80DFC",
+visible:false
 }
 ],
 name:"payment_transfer",
 navigatorID:"-1",
+onLoadMethodID:"FECE2FF3-BE55-4B31-9DD0-B5895053057C",
+onShowMethodID:"48DC7C88-5421-4142-9838-77A5A56D78CF",
 showInMenu:true,
+styleClass:"form-background",
 typeid:3,
 uuid:"B1E2B019-08EA-4BC2-8FD9-1E77ECC36524"
