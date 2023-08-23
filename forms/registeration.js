@@ -38,6 +38,12 @@ var uOpeningDate = null;
  * @properties={typeid:35,uuid:"AB74CFB1-D13C-45BD-8EFB-D42D840D2DA5"}
  */
 var uProductName = '';
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"669060A9-97DD-42B4-8234-F5197B4C25DB"}
+ */
+var uAddress = '';
 
 /**
  * Fired when the button is clicked.
@@ -57,12 +63,17 @@ function onRegister(event)
 	city = uCity;
 	country = uCountry
 	contact = uContact;
-	opening_date = uOpeningDate;
 	productname = uProductName;
+	address = uAddress;
 	status = 'new';
+	opening_date = application.getTimeStamp();
 	balance = 0;
 	sent = 0;
 	received = 0;
+	reward = 0;
+	rating = 0;
+	complain = '';
+	transcation_text = '';
 	
 	var win = application.createWindow("registeration_popup",JSWindow.MODAL_DIALOG, application.getWindow('registeration'));
 	win.setInitialBounds(-1, -1, 375, 220);

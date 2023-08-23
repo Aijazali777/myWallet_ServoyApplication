@@ -1,9 +1,8 @@
 
 /**
  * Fired when the button is clicked.
- *
+ * @public
  * @param {JSEvent} event
- * @public 
  * @properties={typeid:24,uuid:"EF41855C-BF26-4FD8-8182-39061ABF3342"}
  * @AllowToRunInFind
  */
@@ -19,8 +18,6 @@ function onLogin(event)
 	{
 		if(globals.password != null)
 		{
-		
-		
 			var fs = datasources.db.example_data.mywallet.getFoundSet();
 			fs.loadAllRecords();
 			var fsCount = fs.getSize();
@@ -30,14 +27,15 @@ function onLogin(event)
 				if(globals.username == fs.name && globals.password == fs.password)
 				{
 					application.sleep(2000);
-					globals.id = record_id;
-					forms.main_form.foundset.loadRecords(record_id);
-					forms.dashboard.foundset.loadRecords(record_id);
-					forms.my_account.foundset.loadRecords(record_id);
+					globals.id = fs.record_id;
+					//forms.main_form.foundset.loadRecords(record_id);
+					//forms.dashboard.foundset.loadRecords(record_id);
+					//forms.my_account.foundset.loadRecords(record_id);
 					forms.main_form.controller.show();
-					break;
+					return;
 				}
 			}
+			plugins.dialogs.showErrorDialog("Login Failed","Please enter a correct username and password to login","OK");
 //			if(fs.find())
 //			{     
 //			    fs.name = globals.username;

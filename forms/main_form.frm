@@ -71,5 +71,6 @@ navigatorID:"-1",
 onShowMethodID:"E8D63711-74ED-4E0A-983B-E1F554275715",
 showInMenu:true,
 styleClass:"form-background",
+transparent:false,
 typeid:3,
 uuid:"546990B3-803F-4972-A353-F2C9810372B5"

@@ -149,7 +149,7 @@ width:"170"
 dataProviderID:"status",
 editable:false
 },
-name:"textbox_11c",
+name:"fld_status",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"5BC14987-097E-4F57-A493-0E35F8A4BCCA"
@@ -272,6 +272,7 @@ uuid:"BAF651DF-4ADE-47F9-ACC2-7EF08D167A60"
 ],
 name:"my_account",
 navigatorID:"-1",
+onLoadMethodID:"CAA5C536-D2D6-49EC-B5BC-C1F7202743CD",
 onShowMethodID:"1DDAFD1F-1FA9-4F6C-9F08-5888832C8DA4",
 showInMenu:true,
 styleClass:"form-background",

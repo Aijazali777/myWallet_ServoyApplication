@@ -1,25 +1,28 @@
 customProperties:"formComponent:false,\
 useCssPosition:true",
-dataSource:"db:/example_data/customers",
+dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
-cssPosition:"150,-1,-1,calc( 40% - 85px),170,30",
+cssPosition:"120,-1,1,calc( 40% - 150px),300,100",
 json:{
+containedForm:{
+svy_form:"D1DDB7F1-34F4-4E0B-9F44-F30777000A94"
+},
 cssPosition:{
-bottom:"-1",
-height:"30",
-left:"calc( 40% - 85px)",
+bottom:"1",
+height:"100",
+left:"calc( 40% - 150px)",
 right:"-1",
-top:"150",
-width:"170"
+top:"120",
+width:"300"
 },
-text:"No payess yet"
+pageLayout:"listview"
 },
-name:"label_1c",
-typeName:"bootstrapcomponents-label",
+name:"payees_listComponent",
+typeName:"servoycore-listformcomponent",
 typeid:47,
-uuid:"6FB9E129-A583-4C8A-A2B3-0C1D27D21C46"
+uuid:"30774069-CC1E-47B7-B63D-E7EE6759D1EB"
 },
 {
 height:480,
@@ -50,6 +53,8 @@ uuid:"FCF9A83D-6EF3-4C52-BF3C-3799746E753E"
 ],
 name:"my_payees",
 navigatorID:"-1",
+onLoadMethodID:"2F7C2093-C136-4DAA-B1FB-8D427E06D9DE",
 showInMenu:true,
+styleClass:"form-background",
 typeid:3,
 uuid:"B4DBFD38-1765-4C35-AE37-CE9A57EC644A"
