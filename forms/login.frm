@@ -4,7 +4,7 @@ dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
-cssPosition:"calc(10% - 30px),-1,-1,calc(50% - 150px),300,142",
+cssPosition:"100,-1,-1,calc(50% - 150px),300,142",
 customProperties:"attributes:{\
 class:\"signup_label\"\
 },\
@@ -32,22 +32,59 @@ typeid:51,
 uuid:"3B577B4B-7694-415F-B987-6144B9701FF7"
 },
 {
-cssPosition:"570,-1,-1,calc( 51% - 80px),160,70",
+height:540,
+partType:8,
+typeid:19,
+uuid:"5AD02A9E-DC35-41EB-A3B6-C10666CD32BB"
+},
+{
+cssPosition:"0,0,-1,0,640,60",
+customProperties:"attributes:{\
+class:\"footer_style\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
 json:{
-cssPosition:{
-bottom:"-1",
-height:"70",
-left:"calc( 51% - 80px)",
-right:"-1",
-top:"570",
-width:"160"
+location:{
+x:33,
+y:17
 },
-media:"29A56903-BC43-40D8-BF26-F093533B686F"
+media:"29A56903-BC43-40D8-BF26-F093533B686F",
+size:{
+height:80,
+width:140
+}
 },
-name:"imagelabel_1",
-typeName:"servoyextra-imagelabel",
+location:"33,17",
+name:"imagemedia_1_copy381",
+size:"140,80",
+typeName:"bootstrapcomponents-imagemedia",
 typeid:47,
-uuid:"74B83C81-218F-4EE0-8DF9-6CFE42C25261"
+uuid:"2A4A4056-8434-4DE8-9C23-B0EF55B9551E"
+},
+{
+json:{
+location:{
+x:34,
+y:34
+},
+styleClass:"font-weight-bold h3",
+text:"myWallet"
+},
+location:"34,34",
+name:"lbl_mywallet_header_copy195",
+styleClass:"font-weight-bold h3",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"BAF101E9-049C-4E60-B198-6BE885A78375"
+}
+],
+typeid:51,
+uuid:"A255017A-89F2-4F97-A087-1075D9037625"
 },
 {
 height:480,
@@ -56,7 +93,25 @@ typeid:19,
 uuid:"A2DAF333-2576-475E-9FF3-DF5399F6073A"
 },
 {
-cssPosition:"calc(38% - 120px),-1,-1,calc(50% - 150px),300,342",
+height:60,
+partType:2,
+typeid:19,
+uuid:"D4C17CCF-FA15-4B12-9C7E-F00FEBCBF91E"
+},
+{
+cssPosition:"480,0,0,0,640,60",
+customProperties:"attributes:{\
+class:\"footer_style\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+typeid:51,
+uuid:"D6E2CE0E-8E83-40EA-9233-BF9690D907C8"
+},
+{
+cssPosition:"250,-1,-1,calc(50% - 150px),300,342",
 customProperties:"attributes:{\
 class:\"label-field\"\
 },\

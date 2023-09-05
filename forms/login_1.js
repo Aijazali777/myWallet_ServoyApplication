@@ -80,5 +80,5 @@ function onLogin(event)
  */
 function onRegister(event, dataTarget)
 {
-	forms.registeration.controller.show();
+	forms.sign_up.controller.show();
 }
