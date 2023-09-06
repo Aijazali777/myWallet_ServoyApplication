@@ -4,16 +4,16 @@ dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
-cssPosition:"95,-1,-1,calc( 60% - 130px),301,37",
+cssPosition:"95,-1,-1,calc( 60% - 130px),300,35",
 json:{
 componentSize:"small",
 cssPosition:{
 bottom:"-1",
-height:"37",
+height:"35",
 left:"calc( 60% - 130px)",
 right:"-1",
 top:"95",
-width:"301"
+width:"300"
 },
 dataProviderID:"statusFlag",
 label:"Status",
@@ -28,6 +28,27 @@ name:"switch_1",
 typeName:"bootstrapextracomponents-switch",
 typeid:47,
 uuid:"173F4D88-6EF9-471F-A7DC-DC20BDECF4B4"
+},
+{
+cssPosition:"180,-1,-1,calc( 60% - 50px),100,35",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"35",
+left:"calc( 60% - 50px)",
+right:"-1",
+top:"180",
+width:"100"
+},
+onActionMethodID:null,
+styleClass:"default-align h3",
+text:"Off"
+},
+name:"lbl_status",
+styleClass:"default-align h3",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"20CBC01F-E1FC-45FE-82FE-BDE1E18C0DE6"
 },
 {
 cssPosition:"50,-1,-1,calc( 40% - 100px),200,30",
@@ -74,6 +95,24 @@ typeid:19,
 uuid:"5555C4D9-88C5-47CA-B565-439D84F8ABFA"
 },
 {
+cssPosition:"150,-1,-1,calc(60% - 90px),180,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc(60% - 90px)",
+right:"-1",
+top:"150",
+width:"180"
+},
+text:"Enable /Disable Admin Mode"
+},
+name:"lbl_activeDeactivec",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"68E9660F-F1C8-4F83-829B-E77DE4402A94"
+},
+{
 cssPosition:"270,-1,-1,calc( 40% - 85px),170,30",
 json:{
 cssPosition:{
@@ -90,6 +129,24 @@ name:"label_2",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"85F8BE24-CDB6-44C1-9264-6C98481FDEF5"
+},
+{
+cssPosition:"65,-1,-1,calc( 60% - 130px),300,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc( 60% - 130px)",
+right:"-1",
+top:"65",
+width:"300"
+},
+text:"Click here to Active/Deactive Your Account"
+},
+name:"lbl_activeDeactive",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"ABA0EDEE-F3DA-42A5-AF2A-912D753025CD"
 },
 {
 cssPosition:"160,-1,-1,calc( 40% - 85px),170,30",
@@ -110,6 +167,25 @@ styleClass:"default-align label_header_1",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"D034EB1D-92AA-4F36-86C4-5205202D3B28"
+},
+{
+cssPosition:"182,-1,-1,calc( 60% - 10px),55,31",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"31",
+left:"calc( 60% - 10px)",
+right:"-1",
+top:"182",
+width:"55"
+},
+imageStyleClass:"fa fa-toggle-off fa-2x pointer",
+onActionMethodID:"2CEFF8B4-789C-4827-BC87-32A2F09390A1"
+},
+name:"btn_status",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"D6E8BF4F-37C5-4635-BBD8-A02DEF94EF42"
 },
 {
 cssPosition:"0,0,5,-1,333,440",

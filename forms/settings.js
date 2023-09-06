@@ -74,3 +74,17 @@ function onShow(firstShow, event)
 		statusFlag = false;
 	}
 }
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} dataTarget
+ *
+ * @properties={typeid:24,uuid:"2CEFF8B4-789C-4827-BC87-32A2F09390A1"}
+ */
+function onToggle(event, dataTarget)
+{
+	elements.lbl_status.text === "Off" ? elements.lbl_status.text = "On" : elements.lbl_status.text = "Off";
+	elements.lbl_status.text === "On" ? elements.btn_status.imageStyleClass = "fa fa-toggle-on fa-2x pointer" : elements.btn_status.imageStyleClass = "fa fa-toggle-off fa-2x pointer";
+}

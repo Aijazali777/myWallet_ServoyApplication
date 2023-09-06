@@ -3,7 +3,7 @@
  * Fired when the button is clicked.
  * @public
  * @param {JSEvent} event
- * @properties={typeid:24,uuid:"2334887B-F64C-4FB2-AC6B-532635338911"}
+ * @properties={typeid:24,uuid:"EF41855C-BF26-4FD8-8182-39061ABF3342"}
  * @AllowToRunInFind
  */
 function onLogin(event)
@@ -28,8 +28,10 @@ function onLogin(event)
 				{
 					application.sleep(2000);
 					globals.id = fs.record_id;
-					//forms.main_form.controller.show();
-					forms.mywallet_navbar.controller.show();
+					//forms.main_form.foundset.loadRecords(record_id);
+					//forms.dashboard.foundset.loadRecords(record_id);
+					//forms.my_account.foundset.loadRecords(record_id);
+					forms.main_form.controller.show();
 					return;
 				}
 			}
@@ -74,7 +76,7 @@ function onLogin(event)
  * @param {JSEvent} event
  * @param {String} dataTarget
  *
- * @properties={typeid:24,uuid:"AC4EEC0E-25D6-4105-813E-06DB2A6A40CC"}
+ * @properties={typeid:24,uuid:"564C59AD-A64D-40A0-A011-F2F4B9660718"}
  */
 function onRegister(event, dataTarget)
 {

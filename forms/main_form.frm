@@ -42,6 +42,12 @@ typeid:47,
 uuid:"66D8A641-6EB6-4411-B41D-DEF4D7023A7C"
 },
 {
+height:530,
+partType:8,
+typeid:19,
+uuid:"81E88A65-DBED-45C4-B989-92828F497634"
+},
+{
 extendsID:"1861205A-3EF1-4A70-B98F-E4C8381106FA",
 height:480,
 typeid:19,

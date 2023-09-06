@@ -1,6 +1,6 @@
 // An Array of Objects
 /**
- * @properties={typeid:35,uuid:"46E0A4C8-3EC7-4973-9452-205072FE9DE5",variableType:-4}
+ * @properties={typeid:35,uuid:"18B34C60-A185-4A2E-80D7-DF58BFC3D106",variableType:-4}
  */
 var menu = 
 [
@@ -65,7 +65,7 @@ var menu =
 
 /**
 * @private
-* @properties={typeid:24,uuid:"78F023E5-4B0E-4CF5-BCDD-5227AE0941DB"}
+* @properties={typeid:24,uuid:"6B677F25-2280-431B-83FF-B81279B3B56F"}
 */
 function initMenu()
 {
@@ -83,6 +83,74 @@ function initMenu()
 		elements.sidenav.addMenuItem(menuItem);
 	}
 }
+/**
+ * @param {scopes.svyNavigation.NavigationEvent} event
+ * @properties={typeid:24,uuid:"5DF9DD61-0C45-4EAA-A741-F723AA4D8B59"}
+ */
+function onNavigation(event) 
+{
+	var type = event.getEventType();
+	var item = event.getNavigationItem();
+	if(type == scopes.svyNavigation.NAVIGATION_EVENT.AFTER_OPEN)
+	{
+		var form = forms[item.getFormName()];
+		var data = item.getCustomData();
+		
+		if(data && data.pk)
+		{
+			form.foundset.loadRecords(data.pk);
+		}
+	
+		elements.sidenav.containedForm = form;
+	}
+}
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param menuItemID
+ *
+ * @properties={typeid:24,uuid:"91C86B5E-858F-4278-8BB5-19B1017D39BD"}
+ */
+function getMenuItemFormName(menuItemID) {
+	
+	/** @type {String} */
+	var formName = menuItemID;
+	return formName;
+}
+
+/**
+ * Called whenever a menu item from the sidenav is selected with the JSEvent and the menuItemId clicked on.
+ * 
+ * @param {String} menuItemId
+ * @param {JSEvent} event
+ *
+ * @return {boolean}
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"96C3952F-F375-4D50-983F-123014818DF8"}
+ */
+function onMenuItemSelectedHandler(menuItemId, event) {
+
+	if (onMenuItemSelected(menuItemId, event) === false) {
+		return false;
+	}
+
+	// form to navigate too
+	var formName = getMenuItemFormName(menuItemId)
+	var form = forms[formName];
+
+	// open the selected navigation item
+	if (menuItemId && formName && form) {
+		var menuItem = elements.sidenav.getMenuItem(menuItemId);
+
+		// TODO will always be a new navigation item !?!?
+		var item = new scopes.svyNavigation.NavigationItem(formName, menuItem.text);
+		return scopes.svyNavigation.open(item);
+	}
+
+	return true;
+}
 
 /**
 * @param {object} menuItemId
@@ -90,9 +158,7 @@ function initMenu()
 *
 * @return {boolean}
 *
-* @private
-*
-* @properties={typeid:24,uuid:"FD261CFF-361F-423D-AF1E-D67FE6892CBE"}
+* @properties={typeid:24,uuid:"0BE05E5C-809D-4F5E-9344-F4067F692D36"}
 */
 function onMenuItemSelected(menuItemId, event) 
 {
@@ -113,84 +179,18 @@ function onMenuItemSelected(menuItemId, event)
 }
 
 /**
-* @private
-* @param {scopes.svyNavigation.NavigationEvent} event
-* @properties={typeid:24,uuid:"9ACC8EAB-89FD-4F25-B312-F4D97A09B833"}
-*/
-function onNavigation(event) 
-{
-	var type = event.getEventType();
-	var item = event.getNavigationItem();
-	if(type == scopes.svyNavigation.NAVIGATION_EVENT.AFTER_OPEN)
-	{
-		var form = forms[item.getFormName()];
-		var data = item.getCustomData();
-		
-		if(data && data.pk)
-		{
-			form.foundset.loadRecords(data.pk);
-		}
-	
-		elements.sidenav.containedForm = form;
-	}
-}
-
-/**
-* Callback method when form is (re)loaded.
-*
-* @param {JSEvent} event the event that triggered the action
-*
-* @properties={typeid:24,uuid:"05439FCE-5BDF-46B3-8BEE-F2177B29E0EC"}
-*/
-function onLoad(event) 
+ * Callback method when form is (re)loaded.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"DC45AF69-5DAF-4C4C-8A7B-71B9C2D376E8"}
+ */
+function onLoad(event)
 {
 	initMenu();
 	scopes.svyNavigation.addNavigationListener(onNavigation);
-	var menuItems = [],
-	menuItem,
-	/** @type {CustomType<bootstrapextracomponents-navbar.subMenuItem>} */ 
-	subMenuItem;
-	menuItem = elements.navbar.createMenuItem('Aijaz.Ali', globals.username, 'RIGHT');
-	menuItem.iconName = 'fas fa-user';
-	menuItem.subMenuItems = [];
-	menuItems.push(menuItem);
-	
-	//Change password submenu
-	subMenuItem = {};
-	subMenuItem.text = 'Change password';
-	subMenuItem.itemId = 'Change Password';
-	//subMenuItem.styleClass = 'label_header2';
-	menuItem.subMenuItems.push(subMenuItem);
-	
-	//Divider
-	subMenuItem = {};
-	subMenuItem.isDivider = true;
-	menuItem.subMenuItems.push(subMenuItem);
-	
-	//Logout
-	subMenuItem = {};
-	subMenuItem.text = 'Logout';
-	subMenuItem.itemId = 'Logout';
-	menuItem.subMenuItems.push(subMenuItem);
-	elements.navbar.menuItems = menuItems;
-	//scopes.svyNavigation.reset(new scopes.svyNavigation.NavigationItem('main_form','main_form'))
 }
 
-
-/**
- * @properties={typeid:24,uuid:"25D6CF85-0C4A-4D3E-82E7-97C0B47D0887"}
- * @override
- */
-function initNavigationForm() {
-
-// init the sidenav menu
-	var menuItems = loadMenuItems();
-	elements.sidenav.setRootMenuItems(menuItems);
-
-	// init the navbar menu
-	var navbarItems = loadNavbarItems();
-	elements.navbar.setMenuItems(navbarItems);
-}
 /**
  * Callback method for when form is shown.
  *
@@ -198,7 +198,7 @@ function initNavigationForm() {
  * @param {JSEvent} event the event that triggered the action
  * @override
  *
- * @properties={typeid:24,uuid:"E8D63711-74ED-4E0A-983B-E1F554275715"}
+ * @properties={typeid:24,uuid:"D767339F-5988-4973-AB3B-F63A22A8B70A"}
  */
 function onShow(firstShow, event)
 {
