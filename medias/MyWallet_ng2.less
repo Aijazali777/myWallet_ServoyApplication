@@ -25,9 +25,9 @@
 
 .label-field {
 	display: grid;
-	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-	grid-row-size: 20px;
+	grid-row-size: 2px;
+	padding-right: 20px;
 	padding: 20px;
 	
 	background-color: #566f7c; /* #AFA8BF; */
@@ -97,12 +97,47 @@
 	grid-template-columns: max-content 1fr;
 }
 
+.header_style
+{
+	background-color: #41545e;
+	display: flex;
+	justify-content: space-between;
+	
+	/*grid-column-gap: 10px;
+	grid-row-size: 1px;
+	grid-template-columns: max-content 1fr;*/
+	
+	& > div {
+		display: flex;
+		gap: 15px;
+	}
+	
+	padding: 15px;
+	
+	& > .header_labelStyle {
+		gap: 1px;
+		height: 30px;
+	}
+}
+
 .footer_style
 {
 	background-color: #41545e;
-	padding-top: 15px;
 	display: flex;
-	grid-column-gap: 10px;
-	grid-row-size: 1px;
-	grid-template-columns: max-content 1fr;
+	justify-content: space-between;
+	gap: 10px;
+	& > div {
+		display: flex;
+		gap: 10px;
+	}
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.navbar_style
+{
+	navbar-text-color: #ffffff !important;
+	color: #FFFFFF !important;
+	text-color: #FFFFFF !important;
+	font-color: #FFFFFF !important;
 }

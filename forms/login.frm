@@ -32,7 +32,7 @@ typeid:51,
 uuid:"3B577B4B-7694-415F-B987-6144B9701FF7"
 },
 {
-height:540,
+height:660,
 partType:8,
 typeid:19,
 uuid:"5AD02A9E-DC35-41EB-A3B6-C10666CD32BB"
@@ -40,7 +40,16 @@ uuid:"5AD02A9E-DC35-41EB-A3B6-C10666CD32BB"
 {
 cssPosition:"0,0,-1,0,640,60",
 customProperties:"attributes:{\
-class:\"footer_style\"\
+class:\"header_style\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+class:\"header_labelStyle\"\
 },\
 properties:{\
 packagename:\"servoycore\",\
@@ -50,8 +59,8 @@ items:[
 {
 json:{
 location:{
-x:33,
-y:17
+x:1,
+y:1
 },
 media:"29A56903-BC43-40D8-BF26-F093533B686F",
 size:{
@@ -59,7 +68,7 @@ height:80,
 width:140
 }
 },
-location:"33,17",
+location:"1,1",
 name:"imagemedia_1_copy381",
 size:"140,80",
 typeName:"bootstrapcomponents-imagemedia",
@@ -69,13 +78,13 @@ uuid:"2A4A4056-8434-4DE8-9C23-B0EF55B9551E"
 {
 json:{
 location:{
-x:34,
-y:34
+x:2,
+y:2
 },
 styleClass:"font-weight-bold h3",
 text:"myWallet"
 },
-location:"34,34",
+location:"2,2",
 name:"lbl_mywallet_header_copy195",
 styleClass:"font-weight-bold h3",
 typeName:"bootstrapcomponents-label",
@@ -83,11 +92,94 @@ typeid:47,
 uuid:"BAF101E9-049C-4E60-B198-6BE885A78375"
 }
 ],
+location:"1,1",
+typeid:46,
+uuid:"1D249392-539B-410B-B1A0-68138EC372BF"
+},
+{
+customProperties:"attributes:{\
+class:\"div\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+json:{
+location:{
+x:2,
+y:2
+},
+styleClass:"font-weight-bold",
+text:"About"
+},
+location:"2,2",
+name:"label_3",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"6E4E1B27-A91E-4F6B-BEC4-F01AF8E36E31"
+},
+{
+json:{
+location:{
+x:4,
+y:4
+},
+styleClass:"font-weight-bold",
+text:"Login"
+},
+location:"4,4",
+name:"lbl_headerLogin",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"D875EFBB-E7FB-43D2-9A97-43AD5D0D13C1"
+},
+{
+json:{
+location:{
+x:3,
+y:3
+},
+styleClass:"font-weight-bold pointer",
+text:"Contact"
+},
+location:"3,3",
+name:"label_4",
+styleClass:"font-weight-bold pointer",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"E0EEF99F-8E2D-4872-A99A-12B73DEB2DE1"
+},
+{
+json:{
+location:{
+x:1,
+y:1
+},
+styleClass:"font-weight-bold",
+text:"Home"
+},
+location:"1,1",
+name:"label_2",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"FA458774-18A2-4DD9-BAD3-85CA5C2480FE"
+}
+],
+location:"4,4",
+typeid:46,
+uuid:"63CCAA04-D643-4E02-A559-713A335AFDC6"
+}
+],
 typeid:51,
 uuid:"A255017A-89F2-4F97-A087-1075D9037625"
 },
 {
-height:480,
+height:610,
 partType:5,
 typeid:19,
 uuid:"A2DAF333-2576-475E-9FF3-DF5399F6073A"
@@ -99,7 +191,7 @@ typeid:19,
 uuid:"D4C17CCF-FA15-4B12-9C7E-F00FEBCBF91E"
 },
 {
-cssPosition:"480,0,0,0,640,60",
+cssPosition:"610,0,0,0,640,50",
 customProperties:"attributes:{\
 class:\"footer_style\"\
 },\
@@ -107,6 +199,101 @@ properties:{\
 packagename:\"servoycore\",\
 specname:\"servoycore-responsivecontainer\"\
 }",
+items:[
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+json:{
+imageStyleClass:"fa-brands fa-facebook",
+location:{
+x:2,
+y:2
+},
+styleClass:"default-align pointer"
+},
+location:"2,2",
+name:"lbl_facebook",
+styleClass:"default-align pointer",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"1EBA3A4A-36AF-420E-B9FD-B3CE4F5EB88C"
+},
+{
+json:{
+imageStyleClass:"fa-brands fa-twitter pointer",
+location:{
+x:3,
+y:3
+},
+styleClass:"default-align pointer"
+},
+location:"3,3",
+name:"lbl_twitter",
+styleClass:"default-align pointer",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"4E09D25E-77D8-44BF-BEE7-90FA76C31557"
+},
+{
+json:{
+imageStyleClass:"fa-brands fa-linkedin pointer",
+location:{
+x:4,
+y:4
+},
+styleClass:"default-align pointer"
+},
+location:"4,4",
+name:"lbl_linkedin",
+styleClass:"default-align pointer",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"5C5A68C8-5734-4D53-BD41-DCF2533E3700"
+},
+{
+json:{
+location:{
+x:1,
+y:1
+},
+styleClass:"default-align h6",
+text:"© 2023 Copyright myWallet. All Rights Reserved."
+},
+location:"1,1",
+name:"labelcc",
+styleClass:"default-align h6",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"851E501C-288A-423F-9241-24D985E320FC"
+}
+],
+location:"2,2",
+typeid:46,
+uuid:"14D94012-D765-439C-839A-7BC43E0E245A"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+location:"3,3",
+typeid:46,
+uuid:"383BA147-9067-480A-A086-DFCE6997A27A"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+location:"1,1",
+typeid:46,
+uuid:"8E4A803D-5E5E-4912-8121-D1AFAAE83A00"
+}
+],
 typeid:51,
 uuid:"D6E2CE0E-8E83-40EA-9233-BF9690D907C8"
 },
@@ -127,10 +314,11 @@ location:{
 x:3,
 y:3
 },
-placeholderText:"Enter your name"
+placeholderText:"Enter your name",
+toolTipText:"Username"
 },
 location:"3,3",
-name:"textbox",
+name:"fld_username",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"15646AD6-2C7D-46CD-BAA9-FEB1B696A186"
@@ -216,14 +404,16 @@ uuid:"5C97ECB2-A3EF-45AA-A15E-8B6EA69CCC19"
 {
 json:{
 dataProviderID:"scopes.globals.password",
+inputType:"password",
 location:{
 x:5,
 y:5
 },
-placeholderText:"Enter your password"
+placeholderText:"Enter your password",
+toolTipText:"Password"
 },
 location:"5,5",
-name:"textboxc",
+name:"fld_password",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"862C2E07-0A4E-4B02-9EE5-AF6FF1B71B36"
