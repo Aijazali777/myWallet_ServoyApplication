@@ -97,26 +97,6 @@ typeid:47,
 uuid:"3FC59FFF-BA86-4A53-9229-3F61695AADF8"
 },
 {
-cssPosition:"0,0,5,-1,333,440",
-json:{
-cssPosition:{
-bottom:"5",
-height:"440",
-left:"-1",
-right:"0",
-top:"0",
-width:"333"
-},
-media:"C8DEB55E-A17B-4F7B-8F53-5DD111E26194",
-styleClass:"full-size"
-},
-name:"imagelabel_2",
-styleClass:"full-size",
-typeName:"servoyextra-imagelabel",
-typeid:47,
-uuid:"4A21B1E5-59B9-4C8C-B0E4-C058941271D3"
-},
-{
 cssPosition:"110,-1,-1,calc( 30% - 85px),170,30",
 json:{
 cssPosition:{

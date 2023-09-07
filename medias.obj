@@ -64,6 +64,13 @@ uuid:"DEE618E8-5821-4B1F-9153-E8851A47EB48"
 },
 {
 encapsulation:0,
+mimeType:"image/png",
+name:"dashboard_ss.png",
+typeid:37,
+uuid:"49345A4F-028B-4912-AEC2-EEFABE704D0A"
+},
+{
+encapsulation:0,
 name:"footer_1.jfif",
 typeid:37,
 uuid:"25D830C7-2B3A-4020-B8AD-41979979AACD"
@@ -109,6 +116,13 @@ mimeType:"text/css",
 name:"MyWallet_ng2.less",
 typeid:37,
 uuid:"FBEAFB49-222B-4352-9ECB-A5A7169AF5A6"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
+name:"mywallet_ss.png",
+typeid:37,
+uuid:"10AE1FF8-5D35-4284-B960-301FA7C7D03C"
 },
 {
 encapsulation:0,

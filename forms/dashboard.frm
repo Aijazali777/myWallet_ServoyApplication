@@ -42,26 +42,6 @@ typeid:47,
 uuid:"2466A3F6-E055-4F78-B1E2-CD5A6EF1C5EE"
 },
 {
-cssPosition:"0,0,6,-1,333,734",
-json:{
-cssPosition:{
-bottom:"6",
-height:"734",
-left:"-1",
-right:"0",
-top:"0",
-width:"333"
-},
-media:"072269F5-147F-4E8E-BF35-31B3A16B53F1",
-styleClass:"full-size"
-},
-name:"lbl_bg_image",
-styleClass:"full-size",
-typeName:"servoyextra-imagelabel",
-typeid:47,
-uuid:"29B83523-3A52-400F-8C4B-CED30F4EFBB4"
-},
-{
 cssPosition:"540,-1,-1,calc( 55% - 85px),170,40",
 json:{
 cssPosition:{
@@ -106,13 +86,13 @@ typeid:19,
 uuid:"79018B90-0B92-4E41-9795-2BAC03C21ED9"
 },
 {
-cssPosition:"7,-1,-1,473,162,30",
+cssPosition:"7,-1,-1,300,162,30",
 formIndex:10000,
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"473",
+left:"300",
 right:"-1",
 top:"7",
 width:"162"
@@ -121,14 +101,13 @@ formIndex:10000,
 onActionMethodID:"D9D72B3B-CD81-41BF-B64F-E4CFCEB9F51B",
 styleClass:"default-align btn-success",
 text:"Avail Your Bonus Rs 500!",
-visible:false
+visible:true
 },
 name:"lbl_bonus",
 styleClass:"default-align btn-success",
 typeName:"bootstrapcomponents-label",
 typeid:47,
-uuid:"7D5CCE89-97AC-46D2-8E19-B301220204FF",
-visible:false
+uuid:"7D5CCE89-97AC-46D2-8E19-B301220204FF"
 },
 {
 cssPosition:"480,-1,-1,calc( 55% - 85px),170,60",
