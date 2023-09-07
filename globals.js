@@ -15,3 +15,9 @@ var username = '';
  * @properties={typeid:35,uuid:"1B90FE29-6113-4337-B2B5-52E5DB0C6ECC"}
  */
 var password = ''
+	
+/**
+ * @type {Date}
+ * @properties={typeid:35,uuid:"32A120A3-7245-46C0-96C1-71C6277DAB46",variableType:93}
+ */
+var currentDateTime = application.getTimeStamp();

@@ -82,3 +82,30 @@ function onRegister(event, dataTarget)
 {
 	forms.sign_up.controller.show();
 }
+
+/**
+ * Callback method for when form is shown.
+ *
+ * @param {Boolean} firstShow form is shown first time after load
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"3E8FC613-C7CC-4C36-B1C7-9B6CC40A8A43"}
+ */
+function onShow(firstShow, event)
+{
+	//EXAMPLE: slide an object to the right 200px
+	elements.lbl_login.cssPosition = 100,-1,-1,500;
+//	var count = 20
+//	var multiplier = 10
+//	var sleepTime = 20
+//
+//	var i = 1;
+//	while ( i < count )
+//	{
+//	   
+//	   elements.lbl_login.getClientProperty('cssPosition');
+//	   application.sleep(sleepTime)
+//	   application.updateUI()
+//	   i++
+//	}
+}

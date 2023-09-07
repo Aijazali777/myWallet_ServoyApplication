@@ -94,3 +94,31 @@ function onCancel(event)
 	if(succuss == 'Yes')
 		forms.login.controller.show();
 }
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} param
+ *
+ * @properties={typeid:24,uuid:"E621659D-557E-4D35-97FD-0BCEDB235EE7"}
+ */
+function onClickMenu(event, param)
+{
+	if(param == 'h_lbl_home')
+	{
+		forms.home.controller.show();
+	}
+	else if(param == 'h_lbl_about')
+	{
+		forms.about.controller.show();
+	}
+	else if(param == 'h_lbl_contact')
+	{
+		forms.contact.controller.show();
+	}
+	else if(param == 'h_lbl_login')
+	{
+		forms.login.controller.show();
+	}
+}

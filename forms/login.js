@@ -28,10 +28,8 @@ function onLogin(event)
 				{
 					application.sleep(2000);
 					globals.id = fs.record_id;
-					//forms.main_form.foundset.loadRecords(record_id);
-					//forms.dashboard.foundset.loadRecords(record_id);
-					//forms.my_account.foundset.loadRecords(record_id);
 					forms.main_form.controller.show();
+					//forms.mywallet_navbar.controller.show();
 					return;
 				}
 			}
@@ -81,4 +79,32 @@ function onLogin(event)
 function onRegister(event, dataTarget)
 {
 	forms.sign_up.controller.show();
+}
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} param
+ *
+ * @properties={typeid:24,uuid:"7C6CB58D-942C-4400-B203-EFE7B8ECA7AC"}
+ */
+function onClickMenu(event, param)
+{
+	if(param == 'h_lbl_home')
+	{
+		forms.home.controller.show();
+	}
+	else if(param == 'h_lbl_about')
+	{
+		forms.about.controller.show();
+	}
+	else if(param == 'h_lbl_contact')
+	{
+		forms.contact.controller.show();
+	}
+	else if(param == 'h_lbl_login')
+	{
+		forms.login.controller.show();
+	}
 }

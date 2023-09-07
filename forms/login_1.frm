@@ -30,16 +30,17 @@ typeid:47,
 uuid:"1CB074D6-A906-45D5-8EB2-79D67A00742D"
 },
 {
-cssPosition:"50,-1,-1,calc( 51% - 80px),100,30",
+cssPosition:"20,-1,-1,10,100,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"calc( 51% - 80px)",
+left:"10",
 right:"-1",
-top:"50",
+top:"20",
 width:"100"
 },
+onActionMethodID:"3E8FC613-C7CC-4C36-B1C7-9B6CC40A8A43",
 styleClass:"font-weight-bold",
 text:"Login"
 },
@@ -191,6 +192,7 @@ uuid:"EB1AED98-6007-4474-ADAD-5A648F6A8DD1"
 ],
 name:"login_1",
 navigatorID:"-1",
+onShowMethodID:"3E8FC613-C7CC-4C36-B1C7-9B6CC40A8A43",
 showInMenu:true,
 styleClass:"form-background",
 typeid:3,
