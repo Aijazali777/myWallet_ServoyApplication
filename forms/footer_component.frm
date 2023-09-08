@@ -21,25 +21,6 @@ properties:{\
 packagename:\"servoycore\",\
 specname:\"servoycore-responsivecontainer\"\
 }",
-items:[
-{
-json:{
-dataProviderID:"scopes.globals.currentDateTime",
-format:"EEEE, MMMM d, yyyy",
-location:{
-x:1,
-y:1
-},
-styleClass:null,
-toolTipText:"Date"
-},
-location:"1,1",
-name:"datalabel_copy312",
-typeName:"bootstrapcomponents-datalabel",
-typeid:47,
-uuid:"8C4E19F0-1DAE-4A1D-9FAE-C604BC94A017"
-}
-],
 location:"13,13",
 typeid:46,
 uuid:"01D8AAA2-5D06-4C4C-9E35-501505C9D73C"

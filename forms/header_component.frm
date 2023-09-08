@@ -4,10 +4,85 @@ dataSource:"db:/example_data/mywallet",
 encapsulation:108,
 items:[
 {
-height:60,
+cssPosition:"63,10,-1,-1,30,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"-1",
+right:"10",
+top:"63",
+width:"30"
+},
+imageStyleClass:"fas fa-refresh",
+onActionMethodID:"105A9721-0FDD-4ED0-9598-327D28C761C1"
+},
+name:"label_19",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"06278AF1-4298-463B-887F-6E52A3A1F111"
+},
+{
+height:90,
 partType:5,
 typeid:19,
 uuid:"370C6900-456D-49AB-88DB-375BE16E141A"
+},
+{
+cssPosition:"63,30,-1,-1,209,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"-1",
+right:"30",
+top:"63",
+width:"209"
+},
+dataProviderID:"scopes.globals.currentDateTime",
+format:"EEEE, MMMM d, yyyy"
+},
+name:"datalabel_14",
+typeName:"bootstrapcomponents-datalabel",
+typeid:47,
+uuid:"62FA3D32-E9E3-4414-BBE0-FC0B8DC2FFAA"
+},
+{
+cssPosition:"60,0,-1,1,640,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"1",
+right:"0",
+top:"60",
+width:"640"
+},
+styleClass:"header_label_2"
+},
+name:"label_13",
+styleClass:"header_label_2",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"684207A5-C2D3-47AA-A053-7E04204A8B50"
+},
+{
+cssPosition:"63,-1,-1,21,180,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"21",
+right:"-1",
+top:"63",
+width:"180"
+},
+text:"The world at your fingertips!"
+},
+name:"label_16",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"84EF2FA1-5F95-46A5-8536-49A128A3C9D4"
 },
 {
 cssPosition:"0,0,-1,0,640,60",
@@ -93,7 +168,7 @@ location:{
 x:1,
 y:1
 },
-onActionMethodID:"7C6CB58D-942C-4400-B203-EFE7B8ECA7AC",
+onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14",
 styleClass:"clickable-hover",
 text:" Home"
 },
@@ -123,7 +198,7 @@ location:{
 x:2,
 y:2
 },
-onActionMethodID:"7C6CB58D-942C-4400-B203-EFE7B8ECA7AC",
+onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14",
 styleClass:"clickable-hover",
 text:" About"
 },
@@ -153,7 +228,7 @@ location:{
 x:3,
 y:3
 },
-onActionMethodID:"7C6CB58D-942C-4400-B203-EFE7B8ECA7AC",
+onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14",
 styleClass:"clickable-hover",
 text:" Contact"
 },
@@ -183,7 +258,7 @@ location:{
 x:4,
 y:4
 },
-onActionMethodID:"7C6CB58D-942C-4400-B203-EFE7B8ECA7AC",
+onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14",
 styleClass:"clickable-hover",
 text:" Login"
 },
@@ -200,9 +275,26 @@ typeid:46,
 uuid:"9E853D92-085C-4163-84D4-48F1BB385218"
 }
 ],
-location:"java.awt.Point[x=2,y=3]",
 typeid:51,
 uuid:"886CC851-26B5-4863-898C-23E9BFFF7ABB"
+},
+{
+cssPosition:"63,-1,-1,calc( 50% - 100px),200,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc( 50% - 100px)",
+right:"-1",
+top:"63",
+width:"200"
+},
+text:"Stay Connected with myWallet!"
+},
+name:"label_17",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"B6F8B0F7-34E0-4DE9-8908-8D64D61BF611"
 }
 ],
 name:"header_component",

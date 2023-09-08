@@ -37,7 +37,34 @@ uuid:"8BEDCAD4-9ED8-44ED-9EA7-F3BAE4210FEE"
 cssPosition:"610,0,0,0,640,50",
 json:{
 containedForm:{
+datalabel_copy312:{
+
+},
+datalabel_copy818:{
+
+},
 labelcc_copy164:{
+
+},
+labelcc_copy959:{
+
+},
+lbl_facebook_copy64:{
+
+},
+lbl_facebook_copy992:{
+
+},
+lbl_linkedin_copy129:{
+
+},
+lbl_linkedin_copy677:{
+
+},
+lbl_twitter_copy289:{
+
+},
+lbl_twitter_copy810:{
 
 },
 svy_form:"61B2E0FC-C43A-4394-9CA0-33E7FAF54F62"
@@ -57,9 +84,12 @@ typeid:47,
 uuid:"A4663BBC-3E8E-47A2-8357-09DBAB7DA57D"
 },
 {
-cssPosition:"0,0,-1,0,640,60",
+cssPosition:"0,0,-1,0,640,90",
 json:{
 containedForm:{
+datalabel_14:{
+
+},
 h_lbl_about_copy417:{
 customProperties:"methods:{\
 onActionMethodID:{\
@@ -123,6 +153,18 @@ onActionMethodID:"A9D4D3C9-1789-48C1-B530-423C0BC59840"
 imagemedia_1_copy381_copy171:{
 
 },
+label_13:{
+
+},
+label_16:{
+
+},
+label_17:{
+
+},
+label_19:{
+
+},
 lbl_mywallet_header_copy195_copy326:{
 
 },
@@ -130,7 +172,7 @@ svy_form:"31312F6E-0F41-4968-BAAD-9629D6E56EEB"
 },
 cssPosition:{
 bottom:"-1",
-height:"60",
+height:"90",
 left:"0",
 right:"0",
 top:"0",
@@ -143,7 +185,7 @@ typeid:47,
 uuid:"A58F4625-DB35-46A8-91FF-F27E729E69CF"
 },
 {
-height:60,
+height:90,
 partType:2,
 typeid:19,
 uuid:"ACC1BD1E-B26A-43AE-A7DD-457C8830B76C"

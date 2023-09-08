@@ -52,3 +52,47 @@ function welcome()
 	forms.home.elements.lbl_2.visible = true;
 	forms.home.elements.lbl_3.visible = true;
 }
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} dataTarget
+ *
+ * @properties={typeid:24,uuid:"105A9721-0FDD-4ED0-9598-327D28C761C1"}
+ */
+function onRefresh(event, dataTarget)
+{
+	forms.loading.controller.show();
+}
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} param
+ *
+ * @properties={typeid:24,uuid:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14"}
+ */
+function onClickMenu(event, param)
+{
+	if(param == 'h_lbl_home')
+	{
+		forms.loading.controller.show();
+		forms.home.controller.show();
+	}
+	else if(param == 'h_lbl_about')
+	{
+		forms.loading.controller.show();
+		forms.about.controller.show();
+	}
+	else if(param == 'h_lbl_contact')
+	{
+		forms.loading.controller.show();
+		forms.contact.controller.show();
+	}
+	else if(param == 'h_lbl_login')
+	{
+		forms.loading.controller.show();
+		forms.login.controller.show();
+	}
+}

@@ -4,8 +4,13 @@
 // Add your custom less/css to this file you can use the same less properties that are specified in the above properties.less 
 
 .form-background {
-	background-color: #607D8B; /*#6A7587;	*/
+	background-color: #41545e; /*#607D8B; #6A7587;	*/
 }
+
+.form-background_loading {
+	background-color: #41545e;
+}
+
 .ag-table {
 	color: #333 !important;
 }
@@ -30,6 +35,7 @@
 	grid-row-size: 2px;
 	padding-right: 20px;
 	padding: 20px;
+	border-radius: 5px;
 	
 	background-color: #566f7c; /* #AFA8BF; */
 	
@@ -84,6 +90,7 @@
 	padding-top: 20px;
 	padding-bottom: 10px;
 	padding-left: 180px;
+	border-radius: 3px;
 }
 
 .signup_button
@@ -96,11 +103,12 @@
 	padding-top: 10px;
 	padding-left: 160px;
 	grid-template-columns: max-content 1fr;
+	border-radius: 3px;
 }
 
 .header_style
 {
-	background-color: #41545e;
+	background-color: #FB5F55;
 	display: flex;
 	justify-content: space-between;
 	
@@ -123,7 +131,7 @@
 
 .footer_style
 {
-	background-color: #41545e;
+	background-color: #2c3940;
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
@@ -158,16 +166,17 @@
 .clickable-hover:Hover
 {
 	curser: pointer !important;
-	color: #FF5F1F !important;
-	background-color: #41545e !important;
+	color: #333333 !important;
+	background-color: #FF5F1F  !important;
 }
 
 .home_responsive
 {
 	padding-right: 20px;
-	background-color: #41545e;
+	background-color: #2c3940;
 	display: flex;
 	justify-content: space-between;
+	border-radius: 20px;
 	gap: 10px;
 	& > div {
 		display: flex;
@@ -179,8 +188,9 @@
 
 .home_responsive_1
 {
+	border-radius: 20px;
 	padding-right: 20px;
-	background-color: #415e5a;
+	background-color: #2c3940;
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
@@ -199,24 +209,22 @@
 		grid-auto-rows: max-content;
 		margin: 30px;
 		padding: 20px;
-		background-color:#37474f;
+		background-color: #333333;
 		border-radius: 25px;
 	}
 	
 .header_label_2
 {
-	background-color:#333333;
+	background-color: #333333; /*#FB7F55;*/
 }
 
 .home_labal_style
 {
-	background-color: #415e5a;
-	border-radius: 25px;
+	background-color: #fc766e;
 }
 .home_labal_style:Hover
 {
-	background-color: #FF5F1F !important;
+	background-color: #333333 !important;
 	curser: pointer !important;
 	color: #ffffff !important;
-	font-size: 16px !important;
 }

@@ -3,81 +3,6 @@ useCssPosition:true",
 dataSource:"db:/example_data/mywallet",
 items:[
 {
-cssPosition:"0,0,-1,0,640,60",
-json:{
-containedForm:{
-h_lbl_about_copy417:{
-customProperties:"methods:{\
-onActionMethodID:{\
-arguments:[\
-null,\
-\"'h_lbl_about'\"\
-],\
-parameters:[\
-\"event\",\
-\"param\"\
-]\
-}\
-}",
-onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14"
-},
-h_lbl_contact_copy1014:{
-customProperties:"methods:{\
-onActionMethodID:{\
-arguments:[\
-null,\
-\"'h_lbl_contact'\"\
-],\
-parameters:[\
-\"event\",\
-\"param\"\
-]\
-}\
-}",
-onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14"
-},
-h_lbl_home_copy479:{
-customProperties:"",
-onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14"
-},
-h_lbl_login_copy551:{
-customProperties:"methods:{\
-onActionMethodID:{\
-arguments:[\
-null,\
-\"'h_lbl_login'\"\
-],\
-parameters:[\
-\"event\",\
-\"param\"\
-]\
-}\
-}",
-onActionMethodID:"2140DF7C-9045-4A38-AF4A-2E5E096CFD14"
-},
-imagemedia_1_copy381_copy171:{
-
-},
-lbl_mywallet_header_copy195_copy326:{
-
-},
-svy_form:"31312F6E-0F41-4968-BAAD-9629D6E56EEB"
-},
-cssPosition:{
-bottom:"-1",
-height:"60",
-left:"0",
-right:"0",
-top:"0",
-width:"640"
-}
-},
-name:"formcomponent_3",
-typeName:"servoycore-formcomponent",
-typeid:47,
-uuid:"01958AF8-D95D-4C93-8612-9D1F1F4A0E43"
-},
-{
 cssPosition:"800,-1,-1,calc( 50% - 550px),1100,400",
 customProperties:"attributes:{\
 class:\"home_responsive\"\
@@ -301,23 +226,28 @@ typeid:51,
 uuid:"0A74A649-6761-427E-8D18-4964951DB37A"
 },
 {
-cssPosition:"60,0,-1,0,640,30",
+cssPosition:"265,7,-1,-1,170,45",
+customProperties:"attributes:{\
+style:null\
+}",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
-left:"0",
-right:"0",
-top:"60",
-width:"640"
+height:"45",
+left:"-1",
+right:"7",
+top:"265",
+width:"170"
 },
-styleClass:"header_label_2"
+imageStyleClass:"fas fa-sack-dollar fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:"  Benifits"
 },
-name:"label_13",
-styleClass:"header_label_2",
+name:"lbl_servicesccc",
+styleClass:"home_labal_style font-weight-bold",
 typeName:"bootstrapcomponents-label",
 typeid:47,
-uuid:"12F3EBF3-3490-4339-AEBB-ADAA4FB6110F"
+uuid:"0ACCB55A-CCF2-4C25-AD69-A21143FEB462"
 },
 {
 cssPosition:"-1,20,60,-1,230,53",
@@ -345,27 +275,46 @@ typeid:47,
 uuid:"1C18D6D0-27E5-48EE-8F3C-EBD5599C1DA6"
 },
 {
-cssPosition:"250,1,-1,-1,106,30",
-customProperties:"attributes:{\
-style:\"text-align: center;\"\
-}",
+cssPosition:"310,7,-1,-1,170,45",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
+height:"45",
 left:"-1",
-right:"1",
-top:"250",
-width:"106"
+right:"7",
+top:"310",
+width:"170"
 },
-styleClass:"home_labal_style",
-text:"Career"
+imageStyleClass:"fas fa-user-graduate fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:"  Career"
 },
-name:"label_18cc",
-styleClass:"home_labal_style",
+name:"lbl_career",
+styleClass:"home_labal_style font-weight-bold",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"202A47FD-8F39-4875-BE32-E00754468B55"
+},
+{
+cssPosition:"405,7,-1,-1,170,45",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"45",
+left:"-1",
+right:"7",
+top:"405",
+width:"170"
+},
+imageStyleClass:"fas fa-headset fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:" Help & support"
+},
+name:"lbl_servicescc",
+styleClass:"home_labal_style font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"3F88B843-70F7-40FF-9D69-5CA7BF54C564"
 },
 {
 cssPosition:"200,-1,-1,calc(50% - 300px),600,550",
@@ -506,7 +455,7 @@ typeid:51,
 uuid:"4945D20F-4AD1-4DEC-828A-85FDE6209EAB"
 },
 {
-height:60,
+height:90,
 partType:2,
 typeid:19,
 uuid:"5846E0C3-44DA-4D11-8BD9-DA3C72B9B349"
@@ -592,65 +541,70 @@ typeid:47,
 uuid:"8C1BC142-47D3-417B-96B5-02905521C859"
 },
 {
-cssPosition:"190,7,-1,-1,106,30",
+cssPosition:"175,7,-1,-1,170,45",
 customProperties:"attributes:{\
-style:\"text-align: center;\"\
+style:null\
 }",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
+height:"45",
 left:"-1",
 right:"7",
-top:"190",
-width:"106"
+top:"175",
+width:"170"
 },
-styleClass:"home_labal_style",
-text:"Our Services"
+imageStyleClass:"fas fa-snowflake fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:" Our Services"
 },
-name:"label_18",
-styleClass:"home_labal_style",
+name:"lbl_services",
+styleClass:"home_labal_style font-weight-bold",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"8D6B2865-872D-475E-812B-8079076BA14E"
 },
 {
-cssPosition:"60,-1,-1,calc( 50% - 100px),200,30",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"30",
-left:"calc( 50% - 100px)",
-right:"-1",
-top:"60",
-width:"200"
-},
-text:"Stay Connected with myWallet!"
-},
-name:"label_17",
-typeName:"bootstrapcomponents-label",
-typeid:47,
-uuid:"96514EC8-2EB6-4083-8568-BE3147C04A4C"
-},
-{
-cssPosition:"310,7,-1,-1,106,30",
+cssPosition:"220,7,-1,-1,170,45",
 customProperties:"attributes:{\
-style:\"text-align: center;\"\
+style:null\
 }",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
+height:"45",
 left:"-1",
 right:"7",
-top:"310",
-width:"106"
+top:"220",
+width:"170"
 },
-styleClass:"home_labal_style",
-text:"Media Center"
+imageStyleClass:"fas fa-handshake fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:" Be Our Customer"
 },
-name:"label_18ccc",
-styleClass:"home_labal_style",
+name:"lbl_servicesc",
+styleClass:"home_labal_style font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"ACA177CB-329D-463C-A8B0-0CEDB29EC318"
+},
+{
+cssPosition:"355,7,-1,-1,170,50",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"50",
+left:"-1",
+right:"7",
+top:"355",
+width:"170"
+},
+imageStyleClass:"fas fa-photo-film fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:" Media Center"
+},
+name:"lbl_media",
+styleClass:"home_labal_style font-weight-bold",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"B679BE39-5AA8-4450-ADBB-C1D2AA474DBE"
@@ -686,24 +640,25 @@ typeid:19,
 uuid:"BD612E48-D904-4FE9-9705-36E52989187B"
 },
 {
-cssPosition:"130,7,-1,-1,130,30",
+cssPosition:"130,7,-1,-1,170,45",
 customProperties:"attributes:{\
-style:\"text-align: center;\"\
+style:null\
 }",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
+height:"45",
 left:"-1",
 right:"7",
 top:"130",
-width:"130"
+width:"170"
 },
-styleClass:"home_labal_style",
-text:"Personal Banking"
+imageStyleClass:"fas fa-building-columns fa-2x",
+styleClass:"home_labal_style font-weight-bold",
+text:" Personal Banking"
 },
 name:"label_18c",
-styleClass:"home_labal_style",
+styleClass:"home_labal_style font-weight-bold",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"D0B7E483-6734-4672-82FB-072D78029E75"
@@ -733,41 +688,57 @@ typeid:47,
 uuid:"DD939484-2CCD-4023-B017-56479197AC0D"
 },
 {
-cssPosition:"60,-1,-1,20,180,30",
+cssPosition:"0,0,-1,0,640,90",
 json:{
+containedForm:{
+datalabel_14:{
+
+},
+h_lbl_about_copy417:{
+
+},
+h_lbl_contact_copy1014:{
+
+},
+h_lbl_home_copy479:{
+
+},
+h_lbl_login_copy551:{
+
+},
+imagemedia_1_copy381_copy171:{
+
+},
+label_13:{
+
+},
+label_16:{
+
+},
+label_17:{
+
+},
+label_19:{
+
+},
+lbl_mywallet_header_copy195_copy326:{
+
+},
+svy_form:"31312F6E-0F41-4968-BAAD-9629D6E56EEB"
+},
 cssPosition:{
 bottom:"-1",
-height:"30",
-left:"20",
-right:"-1",
-top:"60",
-width:"180"
+height:"90",
+left:"0",
+right:"0",
+top:"0",
+width:"640"
+}
 },
-text:"The world at your fingertips!"
-},
-name:"label_16",
-typeName:"bootstrapcomponents-label",
+name:"formcomponent_20",
+typeName:"servoycore-formcomponent",
 typeid:47,
-uuid:"E0FFF59E-EB65-4143-A506-2ADE681EE4DF"
-},
-{
-cssPosition:"60,20,-1,-1,209,30",
-json:{
-cssPosition:{
-bottom:"-1",
-height:"30",
-left:"-1",
-right:"20",
-top:"60",
-width:"209"
-},
-dataProviderID:"scopes.globals.currentDateTime",
-format:"EEEE, MMMM d, yyyy"
-},
-name:"datalabel_14",
-typeName:"bootstrapcomponents-datalabel",
-typeid:47,
-uuid:"F2394447-D5B2-42B7-AD59-F4F5D91AEE75"
+uuid:"F5B25DA3-0321-4FCE-93C1-BD846AA28B28"
 }
 ],
 name:"home",
