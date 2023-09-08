@@ -8,10 +8,6 @@
  */
 function onShow(firstShow, event)
 {
-	//application.sleep(5000);
-	elements.lbl_welcome.visible = true;
-	//application.sleep(5000);
-	elements.lbl_welcome.visible = false;
 //	var win = application.createWindow("registeration_popup",JSWindow.MODAL_DIALOG, application.getWindow('home'));
 //	win.setInitialBounds(-1, -1, 375, 220);
 //	win.title = "Welcome";

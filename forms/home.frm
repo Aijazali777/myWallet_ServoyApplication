@@ -226,7 +226,7 @@ typeid:51,
 uuid:"0A74A649-6761-427E-8D18-4964951DB37A"
 },
 {
-cssPosition:"265,7,-1,-1,170,45",
+cssPosition:"315,0,-1,-1,200,45",
 customProperties:"attributes:{\
 style:null\
 }",
@@ -235,9 +235,9 @@ cssPosition:{
 bottom:"-1",
 height:"45",
 left:"-1",
-right:"7",
-top:"265",
-width:"170"
+right:"0",
+top:"315",
+width:"200"
 },
 imageStyleClass:"fas fa-sack-dollar fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -250,40 +250,15 @@ typeid:47,
 uuid:"0ACCB55A-CCF2-4C25-AD69-A21143FEB462"
 },
 {
-cssPosition:"-1,20,60,-1,230,53",
-customProperties:"attributes:{\
-style:\"text-align: center;\"\
-}",
-json:{
-cssPosition:{
-bottom:"60",
-height:"53",
-left:"-1",
-right:"20",
-top:"-1",
-width:"230"
-},
-onActionMethodID:"8F461FD0-FED8-4618-97AF-27942D2DD088",
-styleClass:"padding-top-10 home_labal_style",
-text:"Welome To myWallet",
-visible:true
-},
-name:"lbl_welcome",
-styleClass:"padding-top-10 home_labal_style",
-typeName:"bootstrapcomponents-label",
-typeid:47,
-uuid:"1C18D6D0-27E5-48EE-8F3C-EBD5599C1DA6"
-},
-{
-cssPosition:"310,7,-1,-1,170,45",
+cssPosition:"360,0,-1,-1,200,45",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"45",
 left:"-1",
-right:"7",
-top:"310",
-width:"170"
+right:"0",
+top:"360",
+width:"200"
 },
 imageStyleClass:"fas fa-user-graduate fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -296,15 +271,15 @@ typeid:47,
 uuid:"202A47FD-8F39-4875-BE32-E00754468B55"
 },
 {
-cssPosition:"405,7,-1,-1,170,45",
+cssPosition:"455,0,-1,-1,200,45",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"45",
 left:"-1",
-right:"7",
-top:"405",
-width:"170"
+right:"0",
+top:"455",
+width:"200"
 },
 imageStyleClass:"fas fa-headset fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -517,22 +492,22 @@ typeid:47,
 uuid:"843367D6-54A2-4B2F-90C4-C543CA6083E4"
 },
 {
-cssPosition:"114,-1,-1,34,157,49",
+cssPosition:"120,-1,-1,30,180,70",
 customProperties:"attributes:{\
 style:\"text-align: center;\"\
 }",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"49",
-left:"34",
+height:"70",
+left:"30",
 right:"-1",
-top:"114",
-width:"157"
+top:"120",
+width:"180"
 },
 onActionMethodID:"71E64D5F-F9FB-4313-A5FA-00F082032F8C",
 styleClass:"font-weight-bold h4 home_labal_style",
-text:"Welcome to the Digital world!"
+text:" Welcome to the Digital world!"
 },
 name:"lbl_1",
 styleClass:"font-weight-bold h4 home_labal_style",
@@ -541,7 +516,7 @@ typeid:47,
 uuid:"8C1BC142-47D3-417B-96B5-02905521C859"
 },
 {
-cssPosition:"175,7,-1,-1,170,45",
+cssPosition:"225,0,-1,-1,200,45",
 customProperties:"attributes:{\
 style:null\
 }",
@@ -550,9 +525,9 @@ cssPosition:{
 bottom:"-1",
 height:"45",
 left:"-1",
-right:"7",
-top:"175",
-width:"170"
+right:"0",
+top:"225",
+width:"200"
 },
 imageStyleClass:"fas fa-snowflake fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -565,7 +540,7 @@ typeid:47,
 uuid:"8D6B2865-872D-475E-812B-8079076BA14E"
 },
 {
-cssPosition:"220,7,-1,-1,170,45",
+cssPosition:"270,0,-1,-1,200,45",
 customProperties:"attributes:{\
 style:null\
 }",
@@ -574,9 +549,9 @@ cssPosition:{
 bottom:"-1",
 height:"45",
 left:"-1",
-right:"7",
-top:"220",
-width:"170"
+right:"0",
+top:"270",
+width:"200"
 },
 imageStyleClass:"fas fa-handshake fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -589,15 +564,15 @@ typeid:47,
 uuid:"ACA177CB-329D-463C-A8B0-0CEDB29EC318"
 },
 {
-cssPosition:"355,7,-1,-1,170,50",
+cssPosition:"405,0,-1,-1,200,50",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"50",
 left:"-1",
-right:"7",
-top:"355",
-width:"170"
+right:"0",
+top:"405",
+width:"200"
 },
 imageStyleClass:"fas fa-photo-film fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -610,17 +585,17 @@ typeid:47,
 uuid:"B679BE39-5AA8-4450-ADBB-C1D2AA474DBE"
 },
 {
-cssPosition:"900,20,-1,-1,280,30",
+cssPosition:"920,0,-1,-1,280,40",
 customProperties:"attributes:{\
 style:\"text-align: center;\"\
 }",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
+height:"40",
 left:"-1",
-right:"20",
-top:"900",
+right:"0",
+top:"920",
 width:"280"
 },
 onActionMethodID:"61A53D47-4C31-4A87-BBA5-9E2C3313C4DC",
@@ -640,7 +615,7 @@ typeid:19,
 uuid:"BD612E48-D904-4FE9-9705-36E52989187B"
 },
 {
-cssPosition:"130,7,-1,-1,170,45",
+cssPosition:"180,0,-1,-1,200,45",
 customProperties:"attributes:{\
 style:null\
 }",
@@ -649,9 +624,9 @@ cssPosition:{
 bottom:"-1",
 height:"45",
 left:"-1",
-right:"7",
-top:"130",
-width:"170"
+right:"0",
+top:"180",
+width:"200"
 },
 imageStyleClass:"fas fa-building-columns fa-2x",
 styleClass:"home_labal_style font-weight-bold",
@@ -664,20 +639,20 @@ typeid:47,
 uuid:"D0B7E483-6734-4672-82FB-072D78029E75"
 },
 {
-cssPosition:"175,-1,-1,39,144,146",
+cssPosition:"120,-1,-1,206,60,70",
 customProperties:"attributes:{\
 style:\"text-align: center;\"\
 }",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"146",
-left:"39",
+height:"70",
+left:"206",
 right:"-1",
-top:"175",
-width:"144"
+top:"120",
+width:"60"
 },
-imageStyleClass:"fas fa-user fa-8x",
+imageStyleClass:"fas fa-face-smile-beam fa-bounce fa-3x",
 onActionMethodID:"6B2A6033-40BD-4E1B-84CC-E326B7B0C8D1",
 styleClass:"home_labal_style"
 },

@@ -47,7 +47,6 @@ function onSolutionOpen(arg, queryParams)
  */
 function welcome()
 {
-	forms.home.elements.lbl_welcome.visible = true;
 	forms.home.elements.lbl_1.visible = true;
 	forms.home.elements.lbl_2.visible = true;
 	forms.home.elements.lbl_3.visible = true;
