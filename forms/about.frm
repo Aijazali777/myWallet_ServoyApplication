@@ -1,7 +1,7 @@
 customProperties:"formComponent:false,\
 useCssPosition:true",
 dataSource:"db:/example_data/mywallet",
-encapsulation:108,
+encapsulation:4,
 items:[
 {
 height:610,
@@ -50,6 +50,9 @@ label_19:{
 
 },
 lbl_mywallet_header_copy195_copy326:{
+
+},
+lbl_refresh:{
 
 },
 svy_form:"31312F6E-0F41-4968-BAAD-9629D6E56EEB"

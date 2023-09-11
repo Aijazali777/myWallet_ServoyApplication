@@ -8,16 +8,27 @@
  */
 function onLogin(event)
 {
-	if(globals.username == null || globals.password == null)
+	if(globals.username == null)
 	{
+		elements.fld_username.addStyleClass('invalid_alert');
+		elements.fld_username.requestFocus();
 		plugins.dialogs.showErrorDialog("Login Failed","Please enter a username and password to login","OK");
 		return;
+	}
+	else if(globals.password == null)
+	{
+		elements.fld_password.addStyleClass('invalid_alert');
+		elements.fld_password.requestFocus();
+		plugins.dialogs.showErrorDialog("Login Failed","Please enter a username and password to login","OK");
+		return;	
 	}
 	
 	if(globals.username != null)
 	{
+		elements.fld_username.removeStyleClass('invalid_alert');
 		if(globals.password != null)
 		{
+			elements.fld_password.removeStyleClass('invalid_alert');
 			var fs = datasources.db.example_data.mywallet.getFoundSet();
 			fs.loadAllRecords();
 			var fsCount = fs.getSize();

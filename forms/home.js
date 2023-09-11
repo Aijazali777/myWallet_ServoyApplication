@@ -25,19 +25,6 @@ function onShow(firstShow, event)
  * @param {JSEvent} event
  * @param {String} dataTarget
  *
- * @properties={typeid:24,uuid:"8F461FD0-FED8-4618-97AF-27942D2DD088"}
- */
-function onWelcomeClose(event, dataTarget)
-{	
-	elements.lbl_welcome.visible = false;
-}
-
-/**
- * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
- *
- * @param {JSEvent} event
- * @param {String} dataTarget
- *
  * @properties={typeid:24,uuid:"71E64D5F-F9FB-4313-A5FA-00F082032F8C"}
  */
 function onAction1(event, dataTarget)
@@ -69,4 +56,43 @@ function onAction2(event, dataTarget)
 function onAction3(event, dataTarget)
 {
 	elements.lbl_3.visible = false;
+}
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} dataTarget
+ *
+ * @properties={typeid:24,uuid:"3CAB4CB5-498E-478B-873F-58872546C395"}
+ */
+function personal_banking(event, dataTarget)
+{
+	forms.login.controller.show();
+}
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} dataTarget
+ *
+ * @properties={typeid:24,uuid:"64B6C7AC-94A4-4EDD-8E12-0EB96EB5A325"}
+ */
+function goToOurServices(event, dataTarget)
+{
+	elements.btn_ourServices.requestFocus();
+}
+
+/**
+ * Click event. dataTarget parameter is used to identify inner html elements (by their data-target attribute).
+ *
+ * @param {JSEvent} event
+ * @param {String} dataTarget
+ *
+ * @properties={typeid:24,uuid:"972FB4B1-B137-487F-B2C9-8C3FDD3B8E12"}
+ */
+function beOurCustomer(event, dataTarget)
+{
+	forms.sign_up.controller.show();
 }

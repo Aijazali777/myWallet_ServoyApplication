@@ -17,7 +17,7 @@ width:"30"
 imageStyleClass:"fas fa-refresh",
 onActionMethodID:"105A9721-0FDD-4ED0-9598-327D28C761C1"
 },
-name:"label_19",
+name:"lbl_refresh",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"06278AF1-4298-463B-887F-6E52A3A1F111"

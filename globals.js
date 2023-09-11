@@ -76,22 +76,18 @@ function onClickMenu(event, param)
 {
 	if(param == 'h_lbl_home')
 	{
-		forms.loading.controller.show();
 		forms.home.controller.show();
 	}
 	else if(param == 'h_lbl_about')
 	{
-		forms.loading.controller.show();
 		forms.about.controller.show();
 	}
 	else if(param == 'h_lbl_contact')
 	{
-		forms.loading.controller.show();
 		forms.contact.controller.show();
 	}
 	else if(param == 'h_lbl_login')
 	{
-		forms.loading.controller.show();
 		forms.login.controller.show();
 	}
 }

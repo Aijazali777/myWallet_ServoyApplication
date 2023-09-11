@@ -222,6 +222,7 @@ typeid:46,
 uuid:"F7B599A6-B2E4-4743-AAEF-1184A7D08AF4"
 }
 ],
+name:"home_card_conatiner_1",
 typeid:51,
 uuid:"0A74A649-6761-427E-8D18-4964951DB37A"
 },
@@ -426,6 +427,7 @@ typeid:46,
 uuid:"1774B9AB-F434-4810-907F-DBF271B20274"
 }
 ],
+name:"home_main_container",
 typeid:51,
 uuid:"4945D20F-4AD1-4DEC-828A-85FDE6209EAB"
 },
@@ -436,13 +438,272 @@ typeid:19,
 uuid:"5846E0C3-44DA-4D11-8BD9-DA3C72B9B349"
 },
 {
-height:1550,
+height:2550,
 partType:5,
 typeid:19,
 uuid:"5E1B3633-B18D-4EA1-9FED-D074C75D8D4A"
 },
 {
-cssPosition:"1550,0,0,0,640,50",
+cssPosition:"1420,10,-1,10,620,200",
+customProperties:"attributes:{\
+class:\"service_responcive_container\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+class:\"inside_style1\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+location:{
+x:2,
+y:2
+},
+styleClass:"font-weight-bold",
+text:"Transfer/Recieve Money"
+},
+location:"2,2",
+name:"label_10",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"131563F0-24AD-4215-9766-BC1B1C2E9F66"
+},
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+imageStyleClass:"fas fa-money-bill fa-4x",
+location:{
+x:1,
+y:1
+}
+},
+location:"1,1",
+name:"label_13",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"94F868F6-12E5-4BB9-A427-F07465E5DB18"
+}
+],
+location:"1,1",
+typeid:46,
+uuid:"45BE5608-4CDC-4B9B-AAE2-EA5D2ECAD62F"
+}
+],
+location:"1,1",
+typeid:46,
+uuid:"38E1F400-0B60-483C-890C-DAE2D7DEEE23"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+class:\"inside_style1\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+location:{
+x:2,
+y:2
+},
+styleClass:"font-weight-bold",
+text:"Pay Your Bills"
+},
+location:"2,2",
+name:"label_10_copy986",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"6A940B0E-3025-49C9-B776-9EA48CDAD66B"
+},
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+imageStyleClass:"fas fa-file-invoice-dollar fa-4x",
+location:{
+x:1,
+y:1
+}
+},
+location:"1,1",
+name:"label_13_copy543",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"86755F83-015D-4921-9317-691F584020A7"
+}
+],
+location:"11,11",
+typeid:46,
+uuid:"9324CCA6-6985-4F75-9A02-D75E0118B49A"
+}
+],
+location:"1,1",
+typeid:46,
+uuid:"59DDE989-D24B-41D4-A2AB-157FCD12A07C"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+class:\"inside_style1\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+imageStyleClass:"fas fa-money-check-dollar fa-4x",
+location:{
+x:1,
+y:1
+}
+},
+location:"1,1",
+name:"label_13_copy805",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"22C5C9BA-B871-439E-B809-617831432F4B"
+},
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+location:{
+x:2,
+y:2
+},
+styleClass:"font-weight-bold",
+text:"Get Personal Loan"
+},
+location:"2,2",
+name:"label_10_copy821",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"3F99FEB9-048C-4A74-8B82-77B1788B66BA"
+}
+],
+location:"11,11",
+typeid:46,
+uuid:"DBB6C761-A715-4BD9-ADA7-2439FD667AEF"
+}
+],
+location:"1,1",
+typeid:46,
+uuid:"993AE3B6-CC1F-4B89-A115-6841E5911B53"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+class:\"inside_style1\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+imageStyleClass:"fas fa-credit-card fa-4x",
+location:{
+x:1,
+y:1
+}
+},
+location:"1,1",
+name:"label_13_copy501",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"2936ADF9-EEC1-47DE-9A21-AD24FD8E4A8C"
+},
+{
+customProperties:"attributes:{\
+style:\"text-align: right;\"\
+}",
+json:{
+location:{
+x:2,
+y:2
+},
+styleClass:"font-weight-bold",
+text:"Credit Card"
+},
+location:"2,2",
+name:"label_10_copy784",
+styleClass:"font-weight-bold",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"888965E1-31B2-4306-9DAA-356DAAEC335A"
+}
+],
+location:"11,11",
+typeid:46,
+uuid:"0F85B442-3B8F-401C-A776-C991B4CB1373"
+}
+],
+location:"3,3",
+typeid:46,
+uuid:"9DB1C1D2-4B46-475B-94D2-79D84613B9E5"
+}
+],
+name:"rc_ourServices",
+typeid:51,
+uuid:"8340E6B5-DB7F-4DF3-B750-D14D36149F9E"
+},
+{
+cssPosition:"2550,0,0,0,640,50",
 json:{
 containedForm:{
 datalabel_copy312:{
@@ -482,7 +743,7 @@ bottom:"0",
 height:"50",
 left:"0",
 right:"0",
-top:"1550",
+top:"2550",
 width:"640"
 }
 },
@@ -490,6 +751,65 @@ name:"formcomponent_2",
 typeName:"servoycore-formcomponent",
 typeid:47,
 uuid:"843367D6-54A2-4B2F-90C4-C543CA6083E4"
+},
+{
+cssPosition:"1400,10,-1,10,620,50",
+customProperties:"attributes:{\
+class:\"service_responcive_container\"\
+},\
+properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+location:"1,1",
+typeid:46,
+uuid:"1A187735-AFB8-4EC1-928C-E43B5F9E240D"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+items:[
+{
+json:{
+location:{
+x:1,
+y:1
+},
+styleClass:"lbl_service font-weight-bold h3",
+text:"Our Services"
+},
+location:"1,1",
+name:"btn_ourServices",
+styleClass:"lbl_service font-weight-bold h3",
+typeName:"bootstrapcomponents-button",
+typeid:47,
+uuid:"100D6955-7D95-41E6-9CD6-939C9CDC5A30"
+}
+],
+location:"1,1",
+typeid:46,
+uuid:"2D08D1CB-EC2A-4704-8669-B6D39CEC3CF5"
+},
+{
+customProperties:"properties:{\
+packagename:\"servoycore\",\
+specname:\"servoycore-responsivecontainer\"\
+}",
+location:"1,1",
+typeid:46,
+uuid:"6CF81FBC-4335-4CB2-9FD8-C60AB11A79D9"
+}
+],
+typeid:51,
+uuid:"85F875E0-9812-43E0-AC5F-3A0D74D0B19C"
 },
 {
 cssPosition:"120,-1,-1,30,180,70",
@@ -530,6 +850,7 @@ top:"225",
 width:"200"
 },
 imageStyleClass:"fas fa-snowflake fa-2x",
+onActionMethodID:"64B6C7AC-94A4-4EDD-8E12-0EB96EB5A325",
 styleClass:"home_labal_style font-weight-bold",
 text:" Our Services"
 },
@@ -554,6 +875,7 @@ top:"270",
 width:"200"
 },
 imageStyleClass:"fas fa-handshake fa-2x",
+onActionMethodID:"972FB4B1-B137-487F-B2C9-8C3FDD3B8E12",
 styleClass:"home_labal_style font-weight-bold",
 text:" Be Our Customer"
 },
@@ -585,7 +907,7 @@ typeid:47,
 uuid:"B679BE39-5AA8-4450-ADBB-C1D2AA474DBE"
 },
 {
-cssPosition:"920,0,-1,-1,280,40",
+cssPosition:"920,5,-1,-1,280,40",
 customProperties:"attributes:{\
 style:\"text-align: center;\"\
 }",
@@ -594,7 +916,7 @@ cssPosition:{
 bottom:"-1",
 height:"40",
 left:"-1",
-right:"0",
+right:"5",
 top:"920",
 width:"280"
 },
@@ -609,7 +931,7 @@ typeid:47,
 uuid:"B690604A-2290-4F9F-9313-CA90278D51E2"
 },
 {
-height:1600,
+height:2600,
 partType:8,
 typeid:19,
 uuid:"BD612E48-D904-4FE9-9705-36E52989187B"
@@ -629,6 +951,7 @@ top:"180",
 width:"200"
 },
 imageStyleClass:"fas fa-building-columns fa-2x",
+onActionMethodID:"3CAB4CB5-498E-478B-873F-58872546C395",
 styleClass:"home_labal_style font-weight-bold",
 text:" Personal Banking"
 },
@@ -697,6 +1020,9 @@ label_19:{
 
 },
 lbl_mywallet_header_copy195_copy326:{
+
+},
+lbl_refresh:{
 
 },
 svy_form:"31312F6E-0F41-4968-BAAD-9629D6E56EEB"

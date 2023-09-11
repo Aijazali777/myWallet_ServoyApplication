@@ -4,7 +4,7 @@
 // Add your custom less/css to this file you can use the same less properties that are specified in the above properties.less 
 
 .form-background {
-	background-color: #41545e; /*#607D8B; #6A7587;	*/
+	background-color: #41545e; /* #607D8B; #6A7587;	*/
 }
 
 .form-background_loading {
@@ -186,11 +186,18 @@
 	padding-left: 25px;
 }
 
+
+.home_responsive:Hover
+{
+	background-color: #bbc8d0 !important;
+	border: 1px solid #ff0000;
+}
+
 .home_responsive_1
 {
 	border-radius: 20px;
 	padding-right: 20px;
-	background-color: #2c3940;
+	background-color: lighten(#2c3940, 20%) !important;
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
@@ -200,6 +207,13 @@
 	}
 	padding-top: 10px;
 	padding-left: 25px;
+}
+
+.home_responsive_1:Hover
+{
+	background-color: #bbc8d0 !important;
+	border: 1px solid #ff0000;
+	cssPosition: 10px 10px 10px 10px !important;
 }
 
 .inside_style1{
@@ -212,6 +226,12 @@
 		background-color: #333333;
 		border-radius: 25px;
 	}
+	
+.inside_style1:Hover
+{
+	background-color: lighten(#333333, 10%) !important;
+	border: 1px solid #ff0000;
+}
 	
 .header_label_2
 {
@@ -229,4 +249,36 @@
 	background-color: #333333 !important;
 	curser: pointer !important;
 	color: #ffffff !important;
+}
+
+.bg_iamge_style
+{
+	background-repeat: repeat !important;
+	width: 1880px !important;
+	height: 1600px !important;
+}
+
+.lbl_service
+{
+	background-color: #2c3940;
+	color: #ffffff;
+}
+
+.service_responcive_container
+{
+	background-color: #2c3940;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 20px;
+	gap: 10px;
+	& > div {
+		display: flex;
+		gap: 10px;
+	}
+	padding-top: 5px;
+}
+
+.invalid_alert
+{
+	border: 1px solid #333;
 }
